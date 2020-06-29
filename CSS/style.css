@@ -245,71 +245,88 @@ body{
 
 @media screen and (max-width: 23.44em){
     body{
-        background-image: none;
-        padding: 3vw;
-        background-color: #F5F5F5 !important;
+        background-image: url(../img/Celular\ Android\ –\ 1.png);
+        background-size: 100vw;
+        /* padding: 3vw; */
+        /* margin: auto; */
+        /* background-color: #F5F5F5 !important; */
         width: 100vw;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
+        /* display: flex;
+        flex-direction: column; */
+        /* box-sizing: border-box; */
     }
 
     .topo-header{
-        width: 100vw;
+        display: none;
+        /* width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 20px 0;
+        margin: 20px 0; */
     }
 
     .topo-header img {
-        width: 50vw;
+        display: none;
+        /* width: 50vw; */
     }
     
     .conteudo1{
+        display: none;
+        /* max-width: 90vw;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center; */
+        
         
     }
 
     .texto1 p{
-        font-size: 1.2em;
+        display: none;
+        /* font-size: 1.2em;
         text-align: center;
-        width: 90vw;
+        width: 90vw; */
         
     }
 
     .foto-ebook{
-        width: 100vw;
+        display: none;
+        /* width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 4vh 0;
+        margin: 4vh 0; */
     }
 
     .foto-ebook img{
+        display: none;
         width: 60vw;
     }
 
     .conteudo2{
-        display: block;
+         width: 90%;
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+
         width: 90vw;
-        margin-left: 15px;
+         margin-right: 15px; 
+         margin-right: auto; 
     }
 
     .texto2 p{
-        font-size: 0.8em;
+        display: none;
+        /* font-size: 0.6em;
         width: 90vw;
         text-align: center;
-        padding: 5px;
+        padding: 5px; */
        
     }
 
     .formulario-total{
-        margin-top: 20px;
+        margin-top: 560px;
         width: 80vw;
         margin-left: 20px;
+        
     }
 
     .titulo-form{
