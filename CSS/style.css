@@ -73,8 +73,8 @@ body{
 
 
 .formulario-total{
-
-    margin-top: 10vh;
+    display: hidden;
+    /* margin-top: 10vh;
     background-color: white;
     border: solid #707070 2px;
     border-radius: 16px;
@@ -83,7 +83,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .titulo-form{
@@ -133,7 +133,7 @@ body{
         background-repeat: no-repeat; 
         background-size: 65vw;
         background-position: top right;
-        height: 100vh;
+        height: 1045px;
         padding: 3vw;
         display: flex;
         flex-direction: column;
@@ -179,11 +179,12 @@ body{
     }
 
     .conteudo2{
-        width: 80vw;
+        display: none;
+        /* width: 80vw;
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-between; */
     }
 
     .texto2 p{
@@ -193,6 +194,7 @@ body{
     }
 
     .formulario-total{
+        display: none;
         margin-top: 10vh;
         background-color: white;
         border: solid #707070 2px;
@@ -243,10 +245,13 @@ body{
 
 }
 
-@media screen and (max-width: 23.44em){
+@media screen and (max-width: 375px){
     body{
-        background-image: url(../img/Celular\ Android\ –\ 1.png);
+        background-image: url(../img/Landingpage_mobile\ v.2.2.png);
         background-size: 100vw;
+        height: 1045px;
+        max-width: 375px;
+      
         /* padding: 3vw; */
         /* margin: auto; */
         /* background-color: #F5F5F5 !important; */
@@ -254,6 +259,20 @@ body{
         /* display: flex;
         flex-direction: column; */
         /* box-sizing: border-box; */
+    }
+
+    .formulario-total{
+        display: none;
+        margin-top: 10vh;
+        background-color: white;
+        /* border: solid #707070 2px; */
+        /* border-radius: 16px; */
+        width: 28vw;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .topo-header{
@@ -323,13 +342,15 @@ body{
     }
 
     .formulario-total{
-        margin-top: 560px;
+        margin-top: 600px;
         width: 80vw;
-        margin-left: 20px;
+        margin-left: 30px;
+        
         
     }
 
     .titulo-form{
+        display: none;
         font-size: 1.4em;
         font-weight: 700;
     }
@@ -346,24 +367,27 @@ body{
     }
 
     .botao{
+     
         width: 50vw;
         border: solid var(--azul);
         background-color: var(--azul);
         border-radius: 8px;
-        color: white;
+        /* color: white; */
         font-size: 1em;
         font-weight: 700;
         /* margin-left: 6vw; */
     }
 
     .rodape{
-        margin-top: 10vh;
+        /* display: none; */
+        margin-top: 900px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .logo-rodape img{
+        /* display: none; */
       width: 32vw;
     }
 
